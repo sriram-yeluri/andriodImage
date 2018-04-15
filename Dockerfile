@@ -1,5 +1,5 @@
 # Docker file for android build machine image
-FROM alpine
+FROM centos:centos7
 MAINTAINER SriramYeluri <yeluris@gmail.com>
 
 ENV JAVA_HOME /opt/java
